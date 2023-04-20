@@ -21,7 +21,11 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("tag", "hej hej");
 
                 Intent intent = new Intent(MainActivity.this, ButtonActivity.class);
+                intent.putExtra("name", "Daniel"); // Optional
+                intent.putExtra("number", 1); // Optional
                 startActivity(intent);
+
+
 
             }
         });
