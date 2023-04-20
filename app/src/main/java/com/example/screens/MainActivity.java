@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("tag", "hej hej");
 
                 Intent intent = new Intent(MainActivity.this, ButtonActivity.class);
                 intent.putExtra("name", "Daniel"); // Optional
