@@ -53,4 +53,4 @@ och sist så säger vi att textviewn ska skriva ut name + number.
 
 
 
-![](android.png)
+![](and.png)
